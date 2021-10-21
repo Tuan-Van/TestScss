@@ -1,0 +1,167 @@
+@media (min-width: 1025px) {
+  header .fa-bars {
+    display: none;
+  }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+  html {
+    width: 950px;
+  }
+
+  header .fa-bars {
+    display: none;
+  }
+
+  main .feature {
+    margin: 0 60px;
+    width: 100%;
+  }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+  header .nav .fa-bars {
+    padding: 12px 16px;
+    font-size: 3rem;
+    background-color: #000;
+  }
+
+  header .nav i:hover {
+    cursor: pointer;
+  }
+
+  header .nav-list {
+    position: absolute;
+    top: 40px;
+    right: 18px;
+    text-align: center;
+  }
+
+  header .nav-list li {
+    display: none;
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 14px 0;
+  }
+
+  header .nav:hover li {
+    display: block;
+  }
+
+  main .feature {
+    margin: 0 40px;
+    width: 100%;
+  }
+
+  main .feature__layout-text p {
+    width: 400px;
+  }
+}
+@media (min-width: 415px) and (max-width: 600px) {
+  header .nav .fa-bars {
+    padding: 12px 16px;
+    font-size: 3rem;
+  }
+
+  header .nav i:hover {
+    cursor: pointer;
+  }
+
+  header .nav-list {
+    position: absolute;
+    top: 40px;
+    right: 18px;
+    text-align: center;
+  }
+
+  header .nav-list li {
+    display: none;
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 14px 0;
+  }
+
+  header .nav:hover li {
+    display: block;
+  }
+
+  main .feature {
+    margin: 0 30px;
+  }
+
+  main .feature__layout {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  main img {
+    height: 300px;
+  }
+
+  main .feature__layout-text {
+    margin-left: -26px;
+  }
+
+  main .feature__layout-text p {
+    width: 500px;
+  }
+}
+@media (min-width: 374px) and (max-width: 415px) {
+  header .nav .fa-bars {
+    padding: 12px 16px;
+    font-size: 3rem;
+  }
+
+  header .nav i:hover {
+    cursor: pointer;
+  }
+
+  header .nav-list {
+    position: absolute;
+    top: 40px;
+    right: 18px;
+    text-align: center;
+  }
+
+  header .nav-list li {
+    display: none;
+    width: 150px;
+    background-color: #f0f0f0;
+    padding: 14px 0;
+  }
+
+  header .nav:hover li {
+    display: block;
+  }
+
+  main .feature {
+    margin: 0 20px;
+  }
+
+  main .feature__layout {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
+  main img {
+    height: 250px;
+  }
+
+  main .feature__layout-text {
+    margin-left: -26px;
+  }
+
+  main .feature__layout-text p {
+    width: 350px;
+  }
+
+  footer {
+    margin-top: -150px;
+  }
+
+  footer i {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,131 @@
+$font_family_main: Helvetica, Arial, sans-serif;
+$Primary-color:#FF6464;
+$Dark-color:#21243D;
+$color-year:#142850;
+$color-html:#E5E5E5;
+$white-color:#fff;
+$Light-color:#8695A4;
+$size-nav:2rem;
+$size-h1:4.4rem;
+$size-h2: 3rem;
+$size-text:2rem;
+$size-p:1.6rem;
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $font_family_main;
+}
+body{
+    background-color: $white-color;
+}
+header{
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 62px;
+    .nav{
+        min-height: 54px;
+        
+        &-list {
+            .nav-list--text a{
+                color: $Primary-color;
+            }
+            li{
+                display: inline-block;
+                margin-left: 40px;
+            }
+        }
+        a{
+            color: $Dark-color;
+            font-size: $size-nav;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        
+    }
+}
+main{
+    background-color: #fff;
+    .feature{
+        margin: 0 235px;
+        h1{
+            font-size: $size-h1;
+            color: $Dark-color;
+        }
+        &__layout{
+            display: flex;
+            margin: 40px 0;
+            padding: 20px 0;
+            &-text{
+                display: block;
+                max-width: 100%;
+                padding: 20px 25px 30px 30px ;
+                border-radius: 2px;
+                margin-right: 100px;
+                h2{
+                    font-size: $size-h2;
+                    margin-top: -16px;
+                }
+            }
+        }
+        &__layout-years{
+            width: 600px;
+            display: flex;
+            button{
+                color: $white-color;
+                background-color: $Dark-color;
+                border: none;
+                border-radius: 100px;
+                margin-right: 18px;
+            }
+            button:hover{
+                cursor: pointer;
+                font-weight: bold;
+            }
+            p{
+                font-size: $size-p;
+                margin-top: 0;
+            }
+        }
+        p{
+            font-size: $size-p;
+            line-height: 2rem;
+        }
+        .solid1{
+            width: 800px;
+            max-width: 100%;
+            height: 2px;
+            background-color: $color-html;
+            margin: 20px 20px 20px 50px;
+        }
+    }
+}
+footer{
+    text-align: center;
+    align-items: center;
+    .footer{
+        padding: 50px 0;
+        &-icon{
+            display: block;
+            list-style: none;
+            margin-top: 16px; 
+            &--link{
+                margin: 0 16px;
+                font-size: 4.6rem;
+            }
+            &--link:hover{
+                cursor: pointer;
+                opacity: 0.8;
+                font-weight: bold;
+            }
+        }
+    }
+    p{
+        font-size: $size-p;
+        margin-right: -18px;
+        margin-top: -32px;
+    }
+}
